@@ -140,10 +140,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="70" width="0.254" layer="47"/>
+<wire x1="-0.3175" y1="0.3175" x2="0" y2="70" width="0.254" layer="47"/>
 <wire x1="0" y1="70" x2="85" y2="70" width="0.254" layer="47"/>
-<wire x1="85" y1="70" x2="85" y2="0" width="0.254" layer="47"/>
-<wire x1="85" y1="0" x2="0" y2="0" width="0.254" layer="47"/>
+<wire x1="85" y1="70" x2="84.6825" y2="0.3175" width="0.254" layer="47"/>
+<wire x1="84.6825" y1="0.3175" x2="-0.3175" y2="0.3175" width="0.254" layer="47"/>
 <dimension x1="0" y1="0" x2="85" y2="70" x3="90.805" y3="35" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="85" y1="0" x2="0" y2="0" x3="42.5" y3="-4.7625" textsize="1.778" layer="47"/>
 </plain>
@@ -812,7 +812,7 @@ design rules under a new name.</description>
 <element name="JP10" library="pinhead" package="1X01" value="" x="44.45" y="30.7975"/>
 <element name="R18" library="SparkFun-Passives" package="0805" value="10k" x="22.5425" y="47.3075"/>
 <element name="C1" library="SparkFun-Passives" package="CPOL-RADIAL-1000UF-63V" value="" x="29.21" y="38.1" rot="R90"/>
-<element name="JP2" library="pinhead" package="1X01" value="" x="1.905" y="-10.4775"/>
+<element name="JP2" library="pinhead" package="1X01" value="" x="63.8175" y="7.3025"/>
 <element name="JP3" library="pinhead" package="1X01" value="" x="1.905" y="-15.5575"/>
 <element name="JP4" library="pinhead" package="1X01" value="" x="1.905" y="-20.6375"/>
 <element name="JP5" library="pinhead" package="1X01" value="" x="1.905" y="-25.7175"/>
@@ -1279,10 +1279,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$27">
 <contactref element="K2" pad="S"/>
-<wire x1="57.7215" y1="12.1285" x2="57.785" y2="12.1285" width="1.4224" layer="1"/>
-<wire x1="57.785" y1="12.1285" x2="57.785" y2="3.4925" width="1.4224" layer="1"/>
+<wire x1="57.7215" y1="12.1285" x2="55.245" y2="14.6685" width="1.4224" layer="1"/>
+<wire x1="55.245" y1="14.6685" x2="55.245" y2="6.0325" width="1.4224" layer="1"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="1.905" y1="-10.4775" x2="57.785" y2="3.4925" width="0" layer="19" extent="1-1"/>
+<wire x1="63.8175" y1="7.3025" x2="55.245" y2="6.0325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="K2" pad="P"/>
@@ -1303,6 +1303,30 @@ design rules under a new name.</description>
 <wire x1="27.6225" y1="49.2125" x2="27.6225" y2="48.895" width="0.254" layer="1"/>
 <wire x1="27.6225" y1="48.895" x2="32.7025" y2="48.895" width="0.254" layer="1"/>
 <wire x1="32.7025" y1="48.895" x2="32.7025" y2="47.625" width="0.254" layer="1"/>
+</signal>
+<signal name="N$32">
+<via x="54.9275" y="3.4925" extent="1-16" drill="1.1" diameter="2.54"/>
+</signal>
+<signal name="N$33">
+<via x="49.8475" y="3.4925" extent="1-16" drill="1.1" diameter="2.54"/>
+</signal>
+<signal name="N$34">
+<via x="39.0525" y="3.81" extent="1-16" drill="1.1" diameter="2.54"/>
+</signal>
+<signal name="N$35">
+<via x="33.9725" y="3.81" extent="1-16" drill="1.1" diameter="2.54"/>
+</signal>
+<signal name="N$36">
+<via x="72.7075" y="3.175" extent="1-16" drill="1.1" diameter="2.54"/>
+</signal>
+<signal name="N$37">
+<via x="67.6275" y="3.175" extent="1-16" drill="1.1" diameter="2.54"/>
+</signal>
+<signal name="N$38">
+<via x="80.9625" y="44.1325" extent="1-16" drill="1.1" diameter="2.54"/>
+</signal>
+<signal name="N$39">
+<via x="80.9625" y="39.0525" extent="1-16" drill="1.1" diameter="2.54"/>
 </signal>
 </signals>
 </board>
