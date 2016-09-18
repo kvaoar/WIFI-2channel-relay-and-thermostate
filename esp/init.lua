@@ -1,6 +1,6 @@
 gpio.mode(0, gpio.OUTPUT)
 gpio.write(0, gpio.LOW)
-
+--meow
 gpio.mode(5, gpio.OUTPUT)
 gpio.write(5, gpio.LOW)
 -----------------------
